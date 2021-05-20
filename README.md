@@ -42,7 +42,7 @@ PLEASE NOTE: like javascript, if you want to apply code to all elements at once 
 ## FAQ
 #### Is this library useless?
 
-Not for us! Yes, I agree that this is so simple yet I just needed a quick micro library to import in my front end projects that replaces the jQuery handy selectors, without the need to import such large library (+80kilobytes), add extra npm files or write each time the functions needed for this library to work, clogging my js files. Thanks to this github page, I can import this library with just one line of html code, and what I like is that it stays away from my js code.
+Not for me! Yes, I agree that this is so simple yet I just needed a quick micro library to import in my front end projects that replaces the jQuery handy selectors, without the need to import such large library (+80kilobytes), add extra npm files or write each time the functions needed for this library to work, clogging my js files. Thanks to this github page, I can import this library with just one line of html code, and what I like is that it stays away from my js code.
 
 #### How big is SSA?
 99 bytes, no kilobytes ;)
