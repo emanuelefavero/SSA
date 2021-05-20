@@ -73,7 +73,7 @@ SA('p')[i].style.backgroundColor = 'green';
         <!-- SSA -->
         <script src="https://emanuelefavero.github.io/SSA/SSA.js"></script>
         <script>
-            S('p').style.color = 'blue';
+            S('p').style.color = 'red';
         </script>
     </body>
 </html>
