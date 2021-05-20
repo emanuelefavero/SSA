@@ -2,14 +2,14 @@
 # SSA
 #### _A micro JS DOM selector library similar to jQuery, in less than 100 bytes._
 
-Yes, this is simply a dummy library to select DOM elements, if like me, this is all you use jQuery for ($('')), this is the library for you!
+Yes, this is simply a dummy library to select DOM elements. If like me, the dollar sign, $(''), is all you use jQuery for, this is the library for you!
 
 ## Installation
-#### online, using the link to the SSA.js file on github:
+#### online link, using the SSA.js file on github:
 - Insert the following script tag in your html document, before your js script tag.
 ```<script src="https://emanuelefavero.github.io/SSA/SSA.js"></script>```
 
-#### OR, Install locally:
+#### OR, install it locally:
 - Clone this repository or download this .zip
 - Copy "SSA.js" to the root of your project folder
 - Insert the following script tag in your html document, before your js script tag.
@@ -26,7 +26,7 @@ Yes, this is simply a dummy library to select DOM elements, if like me, this is 
 ```S('.class-name')```
 - select a span inside a div
 ```S('div span')```
-##### Select Multiple DOM elements
+##### Select Multiple DOM elements:
 - select all p elements
 ```SA('p')```
 
@@ -41,11 +41,14 @@ PLEASE NOTE: like javascript, if you want to apply code to all elements at once 
 ## FAQ
 #### Is this library useless?
 
-Not for us! Yes, we agree that this is so simple yet we needed a quick micro library to import in our projects that replaces the jQuery handy selectors, without the need to import such large library, add extra npm files or write each time the functions needed fow this library to work, clogging our js files. Thanks to this github page, we can import this library with just one line of html code snippet, and what we like is that it stays away from our js code.
+Not for us! Yes, I agree that this is so simple yet I just needed a quick micro library to import in my front end projects that replaces the jQuery handy selectors, without the need to import such large library (+80kilobytes), add extra npm files or write each time the functions needed for this library to work, clogging my js files. Thanks to this github page, I can import this library with just one line of html code, and what I like is that it stays away from my js code.
+
+#### How big is SSA?
+99 bytes, no kilobytes ;)
 
 #### Why the S?
-Reason 1: We wanted something that resembles the jQuery dollar sign $ but was different so anybody that still uses jQuery will not have confilcts using both libraries.
-Reason 2: S is short of Selector or Select, so "S('p')" can be read as "Select Paragraph" A is short of All, so SA means SelectorAll (like its JS counterpart)
+Reason 1: I wanted something that resembles the jQuery dollar sign $ but was different so anybody that still uses jQuery will not have confilcts using both libraries.
+Reason 2: S is short for Selector or Select, so "S('p')" can be read as "Select Paragraph". A is short of All, so SA means SelectorAll (like its JS counterpart, querySelectorAll)
 #### I need to support old browsers, "forEach" does not work?
 No problem, a for loop will work:
 ```
