@@ -7,6 +7,7 @@ Yes, this is simply a dummy library to select DOM elements. If like me, the doll
 ## Installation
 #### online link, using the SSA.js file on github:
 - Insert the following script tag in your html document, before your js script tag.
+
 ```<script src="https://emanuelefavero.github.io/SSA/SSA.js"></script>```
 
 #### OR, install it locally:
