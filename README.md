@@ -26,7 +26,7 @@ Yes, this is simply a dummy library to select DOM elements. If like me, the doll
 ```S('.class-name')```
 - select a span inside a div
 ```S('div span')```
-##### Select Multiple DOM elements:
+##### Select multiple DOM elements:
 - select all p elements
 ```SA('p')```
 
